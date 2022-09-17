@@ -17,19 +17,18 @@
 | PyJWT                         | 2.1.0  |
 | requests                      | 2.26.0 |
 
-### **Как запустить проект на OC Linux**
-Клонировать репозиторий и перейти в него в командной строке
+### **Запускаем проект в dev режиме на OC Linux**
+Клонировать репозиторий с GitHub
 ```
-git clone git@github.com:boginskiy/yatube_project.git
-```
-```
-cd yatube_project
+git clone git@github.com:boginskiy/api-Yatube.git
 ```
 
-Установите и активируйте виртуальное окружение
+Установить виртуальное окружение venv
 ```
 python3 -m venv venv
 ```
+
+Aктивировать виртуальное окружение venv
 ```
 source venv/bin/activate
 ```
