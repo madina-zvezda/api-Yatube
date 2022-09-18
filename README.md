@@ -43,6 +43,11 @@ pip install -r requirements.txt
 python3 manage.py migrate
 ```
 
+Создать суперпользователя
+```
+python3 manage.py createsuperuser
+```
+
 Запустить проект
 ```
 python3 manage.py runserver
